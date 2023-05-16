@@ -1,0 +1,96 @@
+body {
+  background-color: #fcf6f5;
+}
+h1 {
+  text-align: center;
+  color: #7b9acc;
+}
+.create-todo {
+  display: flex;
+  text-align: center;
+  margin-bottom: 40ovgvh;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.add-button {
+  border-radius: 100%; 
+  text-align: center; 
+  border: none;
+  font-size: 20px;
+  margin: 10px;
+  background-color: white;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  width: 30px;
+  height: 30px;
+}
+
+.tick-button {
+  margin-right: 10px;
+  background-color: white ;
+  padding: 7px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 10px ;
+  width: 30px;
+}
+
+.edit-button {
+  margin-right: 10px;
+  background-color: white ;
+  padding: 7px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 10px ;
+  width: 30px;
+}
+
+.edit-button:hover {
+  background-color: rgb(213, 208, 208);
+}
+
+.delete-button {
+  margin-right: 10px;
+  background-color: white ;
+  padding: 7px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 10px ;
+  width: 35px;
+}
+
+.delete-button:hover {
+  background-color: rgb(213, 208, 208);
+}
+
+
+.task-caption {
+  display: inline-block;
+  width: 400px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#task-list {
+  list-style-type: decimal;
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 470px;
+}
+
+.insert-todo {
+  padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 10px ;
+  width: 300px 
+}
+
+.container {
+  width: 530px;
+  border-bottom: solid 1px;
+  padding-bottom: 10px;
+}
